@@ -279,7 +279,7 @@ namespace MayinTarlasiOyunu
             btnYenidenBasla.BackgroundImageLayout = ImageLayout.Stretch;
             lblBayrakSayisi.Location = new Point(30, 24);
             lblBayrakSayisi.Text = bayrakSayisi.ToString();
-            lblSure.Location=new Point(450, 48);
+            lblSure.Location=new Point(445, 48);
             lblSure.Text= sure.ToString();
             timer1.Start();
             MayinEkle();
